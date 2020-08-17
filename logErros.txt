@@ -1,0 +1,7 @@
+### Ao fazer python main.py downloader --classes 'Scorpion' --type_csv train --limit 1500
+
+- Erro sobre o cv2.
+- Solução: bastou fazer um `pip install -r requirements.txt`.
+
+- Problema sobre cache limit.
+- Solução: estava utilizando o python 3.8.1 32 bits, porém atualizei para python 3.8.1 64 bits e deu tudo certo!
